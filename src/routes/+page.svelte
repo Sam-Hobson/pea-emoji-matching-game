@@ -1,2 +1,15 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import "../app.css";
+    import Game from "./game/Game.svelte";
+</script>
+
+<Game />
+
+
+<style lang="postcss">
+
+    :global(.w-240) {
+        @apply w-[60rem];
+    }
+
+</style>
